@@ -1,0 +1,47 @@
+.window { overflow:hidden; background: #111111; position: absolute; top:0px; left:0px;  border: 3px ridge #888888; -moz-border-radius: 5px; }
+
+.windowbar{  background: #AAAAAA; left : 1000px; top : 1000px; border: 3px ridge #888888; -moz-border-radius: 5px;}
+
+.window_header_table{  margin: 0px 0px 0 0px; border-spacing: 0px; border-collapse: collapse;}
+
+
+
+.window_drag_bar_active{ cursor: move; float: left; background-image:url(metacity-1/title-active.png); }
+.window_drag_bar_inactive{ cursor: move; float: left; background-image:url(metacity-1/title-inactive.png); }
+
+.window_drag_bar_minimize_active{ float: right; background-image:url(metacity-1/SystemMenuButton01-1.png); }
+.window_drag_bar_minimize_inactive{ float: right; background-image:url(metacity-1/SystemMenuButton03-3.png); }
+
+.window_drag_bar_left_active{ float: left; background-image:url(metacity-1/close-active.png); }
+.window_drag_bar_left_inactive{ float: left; background-image:url(metacity-1/close-inactive-highlight.png); }
+
+.window_bar_active{ background: #00FF00; }
+.window_bar_inactive{ background: #FF0000; }
+
+.window_contents{ background: #FFFFFF;  overflow:auto; left : 0px; top : 0px; }
+
+.window_bottom_bar{ background: #BBBBBB; }
+.window_size_button{float: right; background-image:url(metacity-1/Bottum-Right-3.png);}
+
+
+
+
+.window_myone { overflow:hidden; background: #111111; top:0px; left:0px; border: 5px ridge #DD0000; -moz-border-radius: 10px; }
+
+
+.window_drag_bar_active_myone{ cursor: move; float: left; background: #CCCCCC; }
+.window_drag_bar_inactive_myone{ cursor: move; float: left; background: #555555; }
+
+.window_drag_bar_minimize_active_myone{ float: right; background: #FCCCFC; }
+.window_drag_bar_minimize_inactive_myone{ float: right; background: #CCFCCC; }
+
+.window_drag_bar_left_active_myone{ float: left; background: #FFCCCC; }
+.window_drag_bar_left_inactive_myone{ float: left;background: #CCCCFF; }
+
+.window_bar_active_myone{ background: #00AAAA; }
+.window_bar_inactive_myone{ background: #AA00AA; }
+
+
+.window_contents_myone{ background: #DDDDDD;overflow:auto;left : 0px;top : 0px;}
+.window_bottom_bar_myone{ background: #EEEEEE; }
+.window_size_button_myone{float: right; background: #FFCCCC;}

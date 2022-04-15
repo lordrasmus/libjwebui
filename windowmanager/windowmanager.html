@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="windowmanager.css">
+<script type="text/javascript" src=/javascripttests/json/json2.js></script>
+<script type="text/javascript" src=/javascripttests/rjal/rjal.js></script>
+<script type="text/javascript" src=windowmanager.js></script>
+
+
+</head>
+<body>
+<div id=window_container></div>
+<div id=windowbar_container></div>
+Test Test
+
+
+<script type="text/javascript">
+
+w = WindowManager.createWindow();
+w.restoreWindow();
+//w.setSize(400,150);
+w.restoreWindow();
+w.setTitle("Ein Test Window");
+w.setContents("hier ein Test Text von javascript");
+
+w = WindowManager.createWindow();
+//w.setSize(600,350);
+w.restoreWindow();
+w.setTitle("und noch ein Test Window");
+w.setBarText("<span>Hi ich bin span<span>");
+w.loadContents("http://gameserver.tangotanzen.de/javascripttests/windowmanager/testcontent.html");
+
+w = WindowManager.createWindow();
+w.restoreWindow();
+w.setTitle("ein anderes Test Window");
+w.loadContents("http://gameserver.tangotanzen.de/javascripttests/windowmanager/testcontent.php?test=a");
+
+w = WindowManager.createWindow();
+w.restoreWindow();
+w.setTitle("das letzte Test Window");
+var params = "method=bla";
+w.loadContents("http://gameserver.tangotanzen.de/javascripttests/windowmanager/testcontent.php",params);
+</script>
+</body>
+</html>
